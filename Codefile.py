@@ -148,6 +148,7 @@ train_generator = train_data_gen.flow_from_directory(
         save_to_dir=TRN_AUGMENTED, 
         save_prefix='TrainAugmented', 
         save_format='png')
+train_generator.next()
 
 test_generator = test_data_gen.flow_from_directory(
         DATA_PATH,
@@ -160,6 +161,7 @@ test_generator = test_data_gen.flow_from_directory(
         save_to_dir=TST_AUGMENTED, 
         save_prefix='TestAugmented', 
         save_format='png')
+test_generator.next()
 
 
 # Fit and predict 
