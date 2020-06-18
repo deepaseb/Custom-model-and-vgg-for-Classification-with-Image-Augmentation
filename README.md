@@ -1,4 +1,4 @@
-This project is to learn how to build a simple CNN network from scratch for classification. Also,image augmentation and image classification is performed using VGG16 architecture. 
+This project is to learn how to build a simple CNN network from scratch for classification. Also,image augmentation and image classification using VGG16 architecture is performed . 
 
 The images used for training and validation is saved in the data.zip folder.It consists of 4 classes - Dogs,Cats,Horses,Humans; each with 202 images.
 The images generated for train and test are saved in Trn_Augmented_Images and Tst_Augmented_Images folders respectively.
